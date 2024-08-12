@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,13 +7,15 @@
     --font-family: "Jost", sans-serif;
 }
 
+img {
+    object-fit: cover;
+}
 
-
-a{
+a {
     text-decoration: none;
 }
 
-.heading{
+.heading {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 50px;
@@ -21,40 +23,36 @@ a{
     color: #141024;
 }
 
-
-body{
+body {
     font-family: var(--font-family);
 }
-header{
+header {
     background-color: #141024;
     height: 100vh;
     width: 100%;
 }
-.header__nav{
+.header__nav {
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
 }
-.header__nav > a{
-
+.header__nav > a {
     font-weight: 700;
     font-size: 30px;
     line-height: 160%;
     color: #ffffff;
 }
-.header__nav__number{
-
+.header__nav__number {
     font-weight: 700;
     font-size: 30px;
     line-height: 160%;
     color: #ffffff;
 }
-.header__nav__link{
+.header__nav__link {
     display: flex;
     gap: 40px;
 }
-.header__nav__links > a{
-
+.header__nav__links > a {
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
@@ -62,7 +60,7 @@ header{
     color: #ffffff;
 }
 
-.header__content{
+.header__content {
     margin-top: 90px;
     height: calc(100vh - 108px - 90px);
     display: grid;
@@ -71,30 +69,28 @@ header{
     width: 100%;
     justify-content: space-between;
 }
-.header__content__title{
+.header__content__title {
     margin-top: 180px;
     padding-left: 190px;
 }
-.header__content__title h1{
-
+.header__content__title h1 {
     font-weight: 600;
     font-size: 70px;
     line-height: 160%;
     color: #fff;
     margin-bottom: 20px;
 }
-.header__content__title h4{
-
+.header__content__title h4 {
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
     color: #fff;
     margin-bottom: 50px;
 }
-.header__content__title .button{
+.header__content__title .button {
     width: calc(50%);
 }
-.button{
+.button {
     display: block;
     border-radius: 5px;
     padding: 25px 54px;
@@ -105,11 +101,11 @@ header{
     text-align: center;
     color: #fff;
 }
-.button-red{
+.button-red {
     background: #d52027;
 }
 
-.header__content__image{
+.header__content__image {
     width: 60%;
     padding-right: calc((100vw - 1440px) / 2);
     background: url("../img/header_photo.png");
@@ -118,119 +114,117 @@ header{
     background-position: bottom center;
 }
 
-.main__container{
+.main__container {
     max-width: 1440px;
     width: 100%;
     margin: 120px auto;
     padding-inline: 20px;
 }
-.main__numbers{
+.main__numbers {
     margin-top: 120px;
 }
-.main__numbers__text{
+.main__numbers__text {
     width: 75%;
     font-weight: 400;
     font-size: 30px;
     line-height: 160%;
     color: #141024;
 }
-.main__numbers__cards{
+.main__numbers__cards {
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
 }
-.main__numbers__card-title{
+.main__numbers__card-title {
     font-weight: 600;
     font-size: 70px;
     line-height: 160%;
     color: #d52027;
 }
-.main__numbers__card-description{
-
+.main__numbers__card-description {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     color: rgba(20, 16, 36, 0.7);
 }
-.main__block-2-container{
+.main__block-2-container {
     margin-top: 120px;
-    background: #F9F9F9;
+    background: #f9f9f9;
     padding-block: 100px;
 }
-.main__container > h1{
+.main__container > h1 {
     margin-bottom: 60px;
 }
-.main__block-2{
+.main__block-2 {
     margin-top: 0;
     margin-bottom: 0;
 }
-.main__block-2__cards{
+.main__block-2__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-.main__block-2__card h2{
+.main__block-2__card h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 160%;
     color: #141024;
 }
-.main__block-2__card p{
+.main__block-2__card p {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     color: rgba(20, 16, 36, 0.7);
 }
 
-.main__block-slider__cards{
+.main__block-slider__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-.main__block-slider__card img{
+.main__block-slider__card img {
     width: 100%;
     border-radius: 20px;
     aspect-ratio: 0.72;
 }
-.main__block-slider__card h1{
+.main__block-slider__card h1 {
     font-weight: 600;
     font-size: 24px;
     line-height: 160%;
     color: #141024;
 }
-.main__block-slider__card p{
+.main__block-slider__card p {
     font-size: 18px;
     line-height: 160%;
     color: rgba(20, 16, 36, 0.7);
 }
-.main__block-slider__card a{
+.main__block-slider__card a {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     color: #d52027;
 }
-.main__block-slider__controls{
+.main__block-slider__controls {
     display: flex;
     margin-top: 60px;
     justify-content: space-between;
 }
-.slider__controls-arrow{
+.slider__controls-arrow {
     border: none;
     cursor: pointer;
     background: none;
     box-sizing: content-box;
 }
 
-
-.main__block-price__grid{
+.main__block-price__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     max-height: 500px;
     align-items: center;
 }
-.main__block-price__grid-card{
+.main__block-price__grid-card {
     border: 1px solid rgba(20, 16, 36, 0.2);
     border-radius: 20px;
     padding: 40px;
@@ -242,36 +236,36 @@ header{
     height: 100%;
     color: #141024;
 }
-.price__title{
+.price__title {
     font-weight: 600;
     font-size: 30px;
     line-height: 160%;
     text-align: center;
 }
-.price__value{
+.price__value {
     font-weight: 600;
     font-size: 50px;
     line-height: 160%;
     text-align: center;
 }
-.price__description{
+.price__description {
     font-size: 18px;
     line-height: 160%;
     text-align: center;
 }
-.price__highlight{
+.price__highlight {
     background: #141024;
-    max-height: 500px!important;
+    max-height: 500px !important;
     height: 500px;
     color: #ffffff;
 }
-.price__highlight .price__value{
+.price__highlight .price__value {
     margin-top: 25px;
 }
-.footer{
+.footer {
     margin-top: 120px;
 }
-.footer__form-container{
+.footer__form-container {
     height: 100%;
     max-height: 460px;
     background: #d52027 url(../img/Group\ 314.png);
@@ -279,38 +273,38 @@ header{
     background-size: 120;
     background-repeat: no-repeat;
 }
-.footer__form-container{
-    padding-inline: calc((100vw - 1460px)/2);
+.footer__form-container {
+    padding-inline: calc((100vw - 1460px) / 2);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
     padding: 90px 80px;
     align-items: center;
 }
-.footer__form-container > form{
+.footer__form-container > form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.footer__form-title h1{
+.footer__form-title h1 {
     font-weight: 600;
     font-size: 36px;
     line-height: 130%;
     color: #fff;
 }
-.footer__form-title p{
+.footer__form-title p {
     font-size: 20px;
     line-height: 130%;
     color: #fff;
 }
 
-.input__field{
+.input__field {
     background: #f6f6f6;
     border: none;
     padding: 20px;
     border-radius: 5px;
 }
-.input__submit{
+.input__submit {
     background: #141024;
     color: #fff;
     text-align: center;
@@ -318,26 +312,26 @@ header{
     border-radius: 5px;
     border: none;
 }
-.footer__info{
+.footer__info {
     background: #141024;
     color: #fff;
     display: flex;
     justify-content: space-between;
     padding: 40px;
 }
-.footer__nav__logo{
+.footer__nav__logo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.footer__nav__logo a{
+.footer__nav__logo a {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 30px;
     line-height: 160%;
     color: #fff;
 }
-.footer__nav__logo span{
+.footer__nav__logo span {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
